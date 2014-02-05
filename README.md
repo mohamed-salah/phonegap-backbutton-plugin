@@ -1,6 +1,24 @@
 Backbutton plugin for Cordova / PhoneGap
 ======================================================
 
+This Plugin put app in background for android Devices.
+
+## Usage
+
+Example Usage: 
+
+```js
+navigator.Backbutton.goHome(function() {
+  console.log('success')
+}, function() {
+  console.log('fail')
+});
+```
+
+## Installation for Cordova >= 3.0.0
+
+phonegap local plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
+
 This has been successfully tested on Cordova 3.0 to 3.1.
 
 ## MIT Licence
