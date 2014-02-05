@@ -8,22 +8,17 @@
     <description>Cordova Backbutton Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,Backbutton</keywords>
-
     <js-module src="www/Backbutton.js" name="Backbutton">
         <clobbers target="navigator.Backbutton" />
     </js-module>
-
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Backbutton">
+            <feature name="BackbuttonPlugin">
                 <param name="android-package" value="com.badrit.Backbutton.BackbuttonPlugin"/>
             </feature>
         </config-file>
-
         <source-file src="src/android/BackbuttonPlugin.java" target-dir="src/com/badrit/Backbutton/" />
-
     </platform>
-
 </plugin>
 
