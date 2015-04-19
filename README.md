@@ -5,7 +5,7 @@ This Plugin put app in background for android Devices.
 
 ## Usage
 
-Example Usage: 
+Example Usage:
 
 ```js
 navigator.Backbutton.goHome(function() {
@@ -15,9 +15,22 @@ navigator.Backbutton.goHome(function() {
 });
 ```
 
+
+Or just jump to previous app if possible:
+
+```js
+navigator.Backbutton.goBack(function() {
+  console.log('success')
+}, function() {
+  console.log('fail')
+});
+```
+
 ## Installation for Cordova >= 3.0.0
 
 phonegap local plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
+
+cordova plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
 
 This has been successfully tested on Cordova 3.0 to 3.1.
 
