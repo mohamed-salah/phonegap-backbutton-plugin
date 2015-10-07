@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-backbutton",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Cordova Backbutton Plugin",
   "cordova": {
     "id": "cordova-plugin-backbutton",
