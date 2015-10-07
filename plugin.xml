@@ -2,8 +2,8 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.badrit.Backbutton"
-    version="0.1.0">
+    id="cordova-plugin-backbutton"
+    version="0.2.0">
     <name>Backbutton</name>
     <description>Cordova Backbutton Plugin</description>
     <license>Apache 2.0</license>

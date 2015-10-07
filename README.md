@@ -26,11 +26,17 @@ navigator.Backbutton.goBack(function() {
 });
 ```
 
-## Installation for Cordova >= 3.0.0
+## Installation 
+
+for Cordova >= 3.0.0
 
 phonegap local plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
 
 cordova plugin add https://github.com/mohamed-salah/phonegap-backbutton-plugin.git
+
+for Cordova >= 5.0.0
+
+cordova plugin add cordova-plugin-backbutton
 
 This has been successfully tested on Cordova 3.0 to 3.1.
 
